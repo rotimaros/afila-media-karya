@@ -1,0 +1,447 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.fade-in {
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1s cubic-bezier(0, 0, 0.34, 1.01);
+  }
+  
+  .fade-in.appear {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .con{
+	padding-top: 140px;
+    width: 100%;
+}
+
+
+@keyframes animasipanah{
+    0%{
+        top: 0;
+    }
+
+    100%{
+        margin-top: -34px;
+    }
+}
+
+.con img{
+    width: 100%;
+}
+
+.warna-utama{
+    background-color:#FFF;
+}
+
+#warna-teks-1{
+    color: #41A9E0;
+    font-size: 14px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+#warna-teks-1-bold{
+    color: #41A9E0;
+    font-size: 16px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+
+#hello{
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 117px;
+    color: #F65B19;
+    margin-top: 190px;
+}
+
+#paragraf-awal{
+    margin-top: 40px;
+    width: 519px;
+    font-family:'Montserrat', sans-serif ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 39px;
+    color: #0F0F0F;
+}
+
+#ilustrasi-awal{
+    margin-top: 213px;
+}
+
+.learn{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 39px;
+    color: #0F0F0F;
+    margin-top: 152px;
+}
+
+#panah{
+    margin-left: 20px;
+    animation: animasipanah 1s ease-in infinite alternate forwards running;
+}
+
+#latar-biru{
+    background-color: #F3F6FF;
+    margin-top: 40px;
+    padding-top: 1px;
+    position: relative;
+    height: 621px;
+}
+
+#judul{
+    font-family: Montserrat;
+    margin-top: 80px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #0F0F0F;
+    margin-bottom: 12px;
+}
+
+
+#pemisah{
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+}
+
+#deskripsi{
+    width: 534px;
+    font-size: 14px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 24px;
+    line-height: 24px;
+    color: rgba(31, 31, 62, 0.8);
+}
+
+#padding-gambar{
+    padding: 0;
+}
+
+#icon-kedua{
+    padding: 0;
+    margin-top: 56px;
+}
+
+#latar-section-2{
+    width: 543px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 176px;
+    color: #FFFFFF;
+    margin-top: -360px;
+    z-index: -1;
+}
+
+.judul-kecil{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0F0F0F;
+    margin-top: 40px;
+}
+
+.deskripsi-kecil{
+    margin-top: 8px;
+    width: 255px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #41A9E0;
+}
+    
+.tengah-pas{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.deskripsi-kecil-3{
+    width: 445px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #41A9E0;
+}
+
+.deskripsi-kecil-3 li{
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.gambar-3{
+    margin-top: 24px;
+}
+
+.bagian-kedua .judul-kecil{
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+.latar-biru-4{
+    background-color: #F3F6FF;
+    margin-top: 40px;
+    padding-top: 1px;
+    position: relative;
+    height: 800px;
+}
+
+.gambar-5{
+    margin-top: 30px;
+}
+
+.bagian-section-6{
+    margin-top: 40px;
+}
+
+.nama{
+    margin-top: 24px;
+    margin-bottom: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.0025em;
+    color: #0F0F0F;
+}
+
+.status{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.0025em;
+    color: #0F0F0F;
+}
+
+.latar-biru-7{
+    background-color: #41A9E0;
+    margin-top: 60px;
+    padding-top: 0px;
+    position: relative;
+    height: 332px;
+}
+
+.latar-biru-7 i{
+    color: #FFF
+}
+
+.latar-biru-7 .detail{
+    width: 302px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFF
+}
+
+.terakhir {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 2px solid #FFF;
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    margin-top: 80px;
+ } 
+ 
+ .terakhir span { 
+     background-color: #41A9E0 ;
+     padding:0 10px;
+     font-weight: bold;
+     color:#FFF
+ }
+
+ #about, #works, #team{
+     padding-top:10px ;
+ }
+
+
+@media screen and (max-width : 500px){
+    .navBar li{
+        padding-left: 0;
+        margin: 16px auto auto;
+    }
+
+    .con{
+        padding-top: 0;
+    }
+
+    #warna-teks-1{
+        margin-left: 0;
+    }
+
+    #logo{
+        width: 150px;
+    }
+
+    #hello{
+        font-family:'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 46px;
+        color: #F65B19;
+        margin-top: 64px;
+        margin-bottom: 0;
+        height: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        height: 100px;
+    }
+    
+    #paragraf-awal{
+        width: 80%;
+        font-family:'Montserrat', sans-serif ;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        color: #0F0F0F;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+    }
+
+    .learn{
+        margin-top: 40px;
+    }
+    
+    #ilustrasi-awal{
+        margin-top: 32px;
+        width: 80%;
+    }
+
+    #latar-biru{
+        height: 1600px;
+    }
+
+    #judul{
+        font-family: 'Montserrat', sans-serif ;
+        margin-top: 40px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 44px;
+        color: #0F0F0F;
+        margin-bottom: 0px;
+    }
+    
+    #pemisah{
+        margin-left: 0;
+        margin-right: 0;
+        display: block;
+    }
+    
+    #deskripsi{
+        width: 80%;
+        font-size: 12px;
+        margin-top: 24px;
+        line-height: 24px;
+        color: rgba(31, 31, 62, 0.8);
+    }
+
+    #icon-kedua{
+        width: 40%;
+        display: inline;
+        margin-top: 24px;
+    }
+
+    #judul-kecil{
+        font-family: 'Montserrat', sans-serif ;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #0F0F0F;
+        margin-top: 40px;
+    }
+    
+    .deskripsi-kecil{
+        margin-top: 8px;
+        margin-bottom: 56px;
+        width: 255px;
+        font-family: 'Montserrat', sans-serif ;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #41A9E0;
+    }
+    
+
+    #latar-section-2{
+        display: none;
+    }
+
+    .deskripsi-kecil-3{
+        width: 100%;
+    }
+
+    .gambar-3 img{
+        width: 80%;
+
+    }
+
+    .bagian-kedua .judul-kecil{
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    .latar-biru-4{
+        background-color: #F3F6FF;
+        margin-top: 40px;
+        padding-top: 1px;
+        position: relative;
+        height: 1680px;
+    }
+
+    .gambar-5{
+        margin-top: 30px;
+    }
+
+    .gambar-5 img{
+        width: 100%;
+    }
+
+    .latar-biru-7{
+        margin-top: 40px;
+        padding-top: 40px;
+        height: 748px;
+    }
+
+
+}
+
+@media screen and (max-width : 330px){
+    #latar-biru{
+        height: 1500px;
+    }
+}
