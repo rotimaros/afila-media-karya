@@ -53,6 +53,41 @@
     font-weight: bold;
 }
 
+.tombol-navbar{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid #F75B19;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 30px;
+    color: #F75B19;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tombol-navbar:hover{
+    background-color: #F75B19;
+    color: white;
+}
+
+.tombol-1{
+    height: 56px;
+    width: 160px;
+    background-color:#F75B19;
+    box-sizing: border-box;
+    border: 2px solid #F75B19;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 80px;    
+}
+
+.tombol-1:hover{
+    box-shadow: 0px 0px 8px #EB672F;
+}
+
 
 #hello{
     font-family:'Montserrat', sans-serif;
@@ -92,6 +127,8 @@
     margin-left: 20px;
     animation: animasipanah 1s ease-in infinite alternate forwards running;
 }
+
+
 
 #latar-biru{
     background-color: #F3F6FF;
@@ -153,11 +190,12 @@
 .judul-kecil{
     font-family: Montserrat;
     font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: bold;
+    font-size: 24px;
     line-height: 22px;
-    color: #0F0F0F;
+    color: #41A9E0;
     margin-top: 40px;
+    margin-bottom: 32px;;
 }
 
 .deskripsi-kecil{
@@ -213,6 +251,10 @@
     margin-top: 30px;
 }
 
+.gambar-5{
+    margin-top: 40px;
+}
+
 .bagian-section-6{
     margin-top: 40px;
 }
@@ -242,15 +284,14 @@
 }
 
 .latar-biru-7{
-    background-color: #41A9E0;
-    margin-top: 60px;
+    background-color: white;
     padding-top: 0px;
     position: relative;
     height: 332px;
 }
 
 .latar-biru-7 i{
-    color: #FFF
+    color: #41A9E0;
 }
 
 .latar-biru-7 .detail{
@@ -259,31 +300,95 @@
     font-style: normal;
     font-size: 14px;
     line-height: 23px;
-    color: #FFF
+    color: #41A9E0;
+}
+
+.latar-biru-7 img{
+    margin-right: 40px;
 }
 
 .terakhir {
     width: 100%; 
     text-align: center; 
-    border-bottom: 2px solid #FFF;
+    border-bottom: 2px solid #41A9E0;
     line-height: 0.1em;
     margin: 10px 0 20px; 
     margin-top: 80px;
  } 
  
  .terakhir span { 
-     background-color: #41A9E0 ;
+     background-color: white;
      padding:0 10px;
      font-weight: bold;
-     color:#FFF
+     color:#41A9E0;
  }
 
  #about, #works, #team{
      padding-top:10px ;
  }
 
+ .team{
+     background-color: #F3F6FF;
+     margin-top: 80px;
+     padding-bottom: 80px;
+ }
+
+ .hubungi{
+     background-color: #F65B19;
+ }
+
+ .hubungi .judul{
+    text-align: center;
+    padding-top: 80px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+ }
+
+ .hubungi p{
+     margin-bottom: 0;
+ }
+
+ .hubungi .deskripsi{
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.0025em;
+    color: #FFFFFF;
+ }
+
+ .tombol-2{
+    height: 56px;
+    width: 160px;
+    background-color:#F75B19;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 48px;
+    margin-bottom: 80px;
+    text-align: center;
+}  
+
+ .tombol-2:hover{
+     background-color: white;
+     color:#F75B19;
+ }
+
 
 @media screen and (max-width : 500px){
+
+    .tombol-navbar{
+        margin-left: 0;
+    }
+
     .navBar li{
         padding-left: 0;
         margin: 16px auto auto;
@@ -332,6 +437,10 @@
 
     .learn{
         margin-top: 20px;
+    }
+
+    .hubungi-1{
+        display: none;
     }
     
     #ilustrasi-awal{
@@ -407,7 +516,7 @@
     }
 
     .gambar-3 img{
-        width: 80%;
+        display: none;
 
     }
 
@@ -424,6 +533,15 @@
         height: 1680px;
     }
 
+    .hubungi .judul{
+        font-size: 26px;
+    }
+
+    .hubungi .deskripsi{
+        font-size: 16px;
+        font-weight: normal;
+    }
+
     .gambar-5{
         margin-top: 30px;
     }
@@ -435,7 +553,12 @@
     .latar-biru-7{
         margin-top: 40px;
         padding-top: 40px;
-        height: 748px;
+        height: 500px;
+    }
+
+    .latar-biru-7 img{
+        margin-right: 20px;
+        width: 50px;
     }
 
 
